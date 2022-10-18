@@ -21,3 +21,5 @@ def send_text_telegram(text: str, channel_id: int):
     })
     if r.status_code != 200:
         raise Exception("post_text error")
+
+print('Привет мир!')
